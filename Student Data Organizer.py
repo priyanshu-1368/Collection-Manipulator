@@ -138,7 +138,7 @@ while True:
             print("-" * 50)
             for subject in subject_set:
                 print(subject)
-                print("=" * 50)
+                print("-" * 50)
         else:
             print("              --- No data found ---")
             print("=" * 50)
