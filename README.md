@@ -122,9 +122,7 @@ Select an option:
 Enter your choice (1-6): 6
 
 ==================================================
-
-Exiting the Student Data Organizer. Goodbye!
-
+   Exiting the Student Data Organizer. Goodbye!
 ==================================================
 ```
 

@@ -145,10 +145,10 @@ while True:
         print("=" * 50)
 
     elif choice == 6:
-        print("Exiting the Student Data Organizer. Goodbye!")
-        print("\n" + "=" * 50)
+        print("   Exiting the Student Data Organizer. Goodbye!")
+        print("=" * 50)
         break
 
     else:
-        print("\nInvalid choice. Please select a valid option (1-6).")
-        print("\n" + "=" * 50)
+        print("Invalid choice. Please select a valid option (1-6).")
+        print("=" * 50)
