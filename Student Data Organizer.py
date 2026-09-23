@@ -74,9 +74,11 @@ while True:
                 student_id = int(student_id_inpt)
 
                 if student_id in student_by_id:
-                    print("\nStudent Found")
+                    print("-" * 50)
+                    print("Student Found")
                     print(f"Student ID: {var['Student ID']}")
                     print(f"Student Name: {var['Name']}")
+                    print("-" * 50)
                     print("\nWhat would you like to update?")
                     print("1. Name")
                     print("2. Age")
@@ -90,27 +92,34 @@ while True:
                     if update_choice == 1:
                         new_name = input("Enter new name: ")
                         var['Name'] = new_name
-                        print("\nStudent's name updated successfully!")
+                        print("\nStudent's name updated successfully!\n")
+                        print("=" * 50)
                     elif update_choice == 2:
                         new_age = int(input("Enter new age: "))
                         var['Age'] = new_age
-                        print("\nStudent's age updated successfully!")
+                        print("\nStudent's age updated successfully!\n")
+                        print("=" * 50)
                     elif update_choice == 3:
                         new_grade = input("Enter new grade: ")
                         var['Grade'] = new_grade
-                        print("\nStudent's grade updated successfully!")
+                        print("\nStudent's grade updated successfully!\n")
+                        print("=" * 50)
                     elif update_choice == 4:
                         new_dob = input("Enter new date of birth: ")
                         var['Date of Birth'] = new_dob
-                        print("\nStudent's  date of birth updated successfully!")
+                        print("\nStudent's  date of birth updated successfully!\n")
+                        print("=" * 50)
                     elif update_choice == 5:
                         new_subjects = input("Enter new subjects (comma-separated): ").split(",")
                         var['Subjects'] = [subject.strip() for subject in new_subjects]
-                        print("\nStudent's subjects updated successfully!")
+                        print("\nStudent's subjects updated successfully!\n")
+                        print("=" * 50)
                     elif update_choice == 6:
-                        print("\nUpdate cancelled.")
+                        print("\nUpdate cancelled.\n")
+                        print("=" * 50)
                     else:
                         print("\nInvalid choice. Please select a valid option (1-6).")
+                        print("=" * 50)
             else:
                 print(f"\nStudent with ID {student_id} not found.")
         else:
