@@ -137,11 +137,12 @@ while True:
             print("        --- Display Subjects Offered ---")
             print("-" * 50)
             for subject in subject_set:
-                print(subject)
-                print("-" * 50)
+                print("-", subject)
         else:
             print("              --- No data found ---")
             print("=" * 50)
+
+        print("=" * 50)
 
     elif choice == 6:
         print("Exiting the Student Data Organizer. Goodbye!")
