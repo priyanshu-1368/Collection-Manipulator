@@ -1,17 +1,23 @@
 # Student Data Organizer
 
-A CLI-based Python application designed to manage student records, track subject enrollments, and support full CRUD operations with data integrity checks and runtime error handling.
+A command-line tool built with Python that helps manage student information. It tracks student records handles enrollments and supports full create, read, update and delete operations. The application includes checks to maintain data accuracy and handles errors during runtime.
 
 ---
 
 ## Features
 
-* **Add Student:** Register students with unique IDs, demographics, and a custom list of subjects.
-* **Display All Records:** Structured tabular output for viewing all active student profiles.
-* **Update Records:** Field-level modification (Name, Age, Grade, DOB, and Subjects) by Student ID.
-* **Delete Record:** Instant record removal across dictionary and list data structures.
-* **Subjects Directory:** Dynamic set aggregation displaying distinct subjects offered across active enrollments.
-* **Fault-Tolerant CLI:** Input validation guards against invalid data types and missing lookup keys.
+* **Add Student:** Register students using IDs, record their demographics, and include a custom list of subjects.
+
+* **Display All Records:** Show a table with all active student profiles.
+
+* **Update Records:** Modify fields such as Name, Age, Grade, DOB and Subjects for a student, by ID.
+
+* **Delete Record:** Remove a student record instantly from both dictionary and list data structures.
+
+* **Subjects Directory:** Show a set that lists all distinct subjects offered in current enrollments.
+
+* **Fault-Tolerant CLI:** Validate inputs to guard against data types and missing lookup keys.
+
 
 ---
 
