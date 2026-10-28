@@ -15,9 +15,9 @@ while True:
     print("4. Delete Student")
     print("5. Display Subjects Offered")
     print("6. Exit")
-    
+
     choice = int(input("\nEnter your choice (1-6): "))
-    
+
     print("\n" + "=" * 50)
 
     if choice == 1:
@@ -35,14 +35,7 @@ while True:
 
         identity = (student_id, name)
 
-        student = {
-            "Student ID"    :    student_id,
-            "Name"          :    name,
-            "Age"           :    age,
-            "Grade"         :    grade,
-            "Date of Birth" :    dob,
-            "Subjects"      :    subjects
-        }
+        student = {"Student ID": student_id, "Name": name, "Age": age, "Grade": grade, "Date of Birth": dob, "Subjects": subjects}
 
         student_list.append(student)
         student_by_id[student_id] = student
@@ -91,27 +84,27 @@ while True:
 
                     if update_choice == 1:
                         new_name = input("Enter new name: ")
-                        var['Name'] = new_name
+                        var["Name"] = new_name
                         print("\nStudent's name updated successfully!\n")
                         print("=" * 50)
                     elif update_choice == 2:
                         new_age = int(input("Enter new age: "))
-                        var['Age'] = new_age
+                        var["Age"] = new_age
                         print("\nStudent's age updated successfully!\n")
                         print("=" * 50)
                     elif update_choice == 3:
                         new_grade = input("Enter new grade: ")
-                        var['Grade'] = new_grade
+                        var["Grade"] = new_grade
                         print("\nStudent's grade updated successfully!\n")
                         print("=" * 50)
                     elif update_choice == 4:
                         new_dob = input("Enter new date of birth: ")
-                        var['Date of Birth'] = new_dob
+                        var["Date of Birth"] = new_dob
                         print("\nStudent's  date of birth updated successfully!\n")
                         print("=" * 50)
                     elif update_choice == 5:
                         new_subjects = input("Enter new subjects (comma-separated): ").split(",")
-                        var['Subjects'] = [subject.strip() for subject in new_subjects]
+                        var["Subjects"] = [subject.strip() for subject in new_subjects]
                         print("\nStudent's subjects updated successfully!\n")
                         print("=" * 50)
                     elif update_choice == 6:
