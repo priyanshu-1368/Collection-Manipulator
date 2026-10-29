@@ -18,6 +18,7 @@ A command-line tool built with Python that helps manage student information. It 
 
 * **Fault-Tolerant CLI:** Validate inputs to guard against data types and missing lookup keys.
 
+* **Dual Implementations:** Available in two versions, classic `if-elif-else` and modern `match-case` (requires Python 3.10+).
 
 ---
 
@@ -52,7 +53,7 @@ Enter your choice (1-6): 1
 
 Enter student details:
 Student ID: 101
-Name: Rahul Sharma
+Name: Aakash Sodha
 Age: 20
 Grade: A
 Date of Birth (YYYY-MM-DD): 2004-05-15
@@ -75,7 +76,7 @@ Enter your choice (1-6): 2
 ==================================================
           --- Display All Students ---
 --------------------------------------------------
-Student ID: 101 | Name: Rahul Sharma | Date of Birth: 2004-05-15 | Age: 20 | Grade: A | Subjects: Math, Physics, Computer Science
+Student ID: 101 | Name: Aakash Sodha | Date of Birth: 2005-02-15 | Age: 21 | Grade: A | Subjects: Math, Physics, Computer Science
 ==================================================
 
 Select an option:
@@ -96,7 +97,7 @@ Enter the Student ID to update: 101
 
 Student Found
 Student ID: 101
-Student Name: Rahul Sharma
+Student Name: Aakash Sodha
 
 What would you like to update?
 1. Name
