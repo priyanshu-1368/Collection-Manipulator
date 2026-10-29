@@ -61,13 +61,13 @@ while True:
             if student_list:
                 print("        --- Update Student Information ---")
                 print("=" * 50)
-                var = student_by_id[student_id]
                 student_id_inpt = input("\nEnter the Student ID to update: ")
 
                 if student_id_inpt.isdigit():
                     student_id = int(student_id_inpt)
 
                     if student_id in student_by_id:
+                        var = student_by_id[student_id]
                         print("-" * 50)
                         print("Student Found")
                         print(f"Student ID: {var['Student ID']}")
