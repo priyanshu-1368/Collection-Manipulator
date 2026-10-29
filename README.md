@@ -24,9 +24,14 @@ A command-line tool built with Python that helps manage student information. It 
 
 ## Preview
 
+### Add Student
 ![Add Student](Screenshots/img%20(1).png)
+
+### Display All Students
 ![Display All Students](Screenshots/img%20(2).png)
-![Delete Student](Screenshots/img%20(3).png)
+
+### Updated Student
+![Updated Student](Screenshots/img%20(3).png)
 
 ---
 
